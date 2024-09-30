@@ -1,0 +1,13 @@
+[project]
+name = "foo"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    "types-psutil==6.* ; python_version >= '3.8'",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

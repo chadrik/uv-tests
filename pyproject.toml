@@ -1,0 +1,10 @@
+[tool.uv.workspace]
+members = [
+    "project-foo",
+]
+
+[tool.uv.sources]
+foo = { workspace = true }
+
+[tool.uv]
+environments = ["python_version < '3.8'", "python_version >= '3.8'"]
